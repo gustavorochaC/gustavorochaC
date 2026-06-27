@@ -82,6 +82,58 @@ const gustavo = {
 
 <br/>
 
+<!-- ====== FEATURED PROJECTS ====== -->
+## 🚀 Featured Projects
+
+> 🔒 Built at **Flexibase** — private repositories. Highlights below.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 Portal SSO Flexibase
+**Central identity & access platform**
+
+Single sign-on for the whole internal ecosystem — centralized login, sessions, audit and MFA, acting as the central **OAuth2 / OIDC issuer**. Replaces scattered per-app logins with one governed entry point (users, workspaces, roles, feature flags).
+
+- ⚙️ Monorepo: portal-api · portal-web · worker · spa-bridge
+- 🛡️ Append-only audit · MFA for admins · global logout & revocation
+- 🧩 Typed domain contracts + clean architecture
+
+`TypeScript` `Fastify` `Next.js 15` `Supabase` `Docker` `NGINX` `Vitest`
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 SGI — Gestão de Indicadores
+**Industrial & corporate KPI dashboard**
+
+Executive dashboard for tracking and visualizing business indicators — trend analysis, percentage breakdowns, Excel import and a responsive light/dark UI. Integrated with the Flexibase SSO via same-origin bridge.
+
+- 📈 Executive dashboard + trend analysis
+- 📥 Excel spreadsheet import
+- 🎨 Category & indicator management, light/dark theme
+
+`React 18` `TypeScript` `Vite` `Tailwind` `shadcn/ui` `Recharts` `Supabase`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🎯 PMC-Flexibase — Project Management OS
+**Turns an Excel spreadsheet into a full operational web app**
+
+Operational system managing 60 PMC projects end-to-end: executive dashboard with live KPIs, a 3-step registration wizard, formal approval flow (Draft → Pending → Approved), hierarchical **A3 tasks** with drag & drop, editable monthly checkpoints, automatic priority classification and drag-and-drop **Excel import** parsed in-browser. Full **Row-Level Security** (28 policies) across 3 user roles.
+
+`React 19` `Vite 6` `TypeScript` `Tailwind 4` `shadcn/ui` `Supabase` `PostgreSQL` `TurboRepo`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 <!-- ====== CONNECT ====== -->
 ## 🌐 Let's Connect
 
